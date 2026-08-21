@@ -1,3 +1,7 @@
+## v1.2
+
+Fixed the desktop hero layout so it remains wide and balanced on large/ultrawide monitors.
+
 # Front Range Professional Speaker Series website
 
 A static, responsive landing page designed for GitHub Pages.
@@ -42,3 +46,13 @@ Speaker details are currently written directly in `index.html`. Search for the `
 - ECEN 3/5730 — Practical PCB Design & Manufacture — Swettlen
 
 The site intentionally states only that attendance/no-show records *may* be shared with instructors and that course-credit/no-show policy is set by each instructor.
+
+
+## v1.1 updates
+- Replaced text-only company labels with consistent logo panels for Marvell, Intel, Panasonic, and AMD.
+- Added speaker profile links for Chris Fieldsend, Darren Hitchcock, and Dean Gonzales.
+- Speaker/company links open in a new tab.
+- Judd Gerber remains unlinked until a verified profile URL is supplied.
+
+### Updating the existing GitHub Pages site
+Upload/replace `index.html` and `styles.css` in the repository root. No changes to `site-config.js` or `script.js` are required for this update.

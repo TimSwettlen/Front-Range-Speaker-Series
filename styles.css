@@ -36,12 +36,12 @@ img { width: 100%; display: block; }
 .site-nav a:hover { color:var(--gold-2); }
 .nav-cta { border:1px solid var(--gold); padding:.48rem .8rem; border-radius:4px; }
 .menu-toggle { display:none; background:none; color:white; border:1px solid #555; border-radius:4px; padding:.45rem .7rem; }
-.hero { min-height:680px; display:grid; grid-template-columns:minmax(0, 47%) minmax(0, 53%); max-width:1400px; margin:0 auto; border-bottom:1px solid var(--line); overflow:hidden; }
-.hero-copy { padding:6.7rem max(2rem, calc((100vw - var(--max))/2)) 4rem max(2rem, calc((100vw - var(--max))/2)); padding-right:2.5rem; position:relative; z-index:2; }
+.hero { min-height:680px; display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1.08fr); width:100%; max-width:1400px; margin:0 auto; border-bottom:1px solid var(--line); overflow:hidden; }
+.hero-copy { padding:clamp(4.5rem,6vw,6.7rem) clamp(2rem,4vw,4.5rem) 4rem; position:relative; z-index:2; }
 .hero-copy::after { content:""; position:absolute; inset:0 -9rem 0 auto; width:15rem; background:linear-gradient(90deg,var(--bg),transparent); pointer-events:none; }
 .hero-art { min-height:680px; background-image:linear-gradient(90deg,rgba(5,6,7,.78),rgba(5,6,7,.08) 34%), url('assets/hero-hardware.webp'); background-size:cover; background-position:center; }
 .eyebrow { color:var(--gold-2); text-transform:uppercase; letter-spacing:.15em; font-weight:800; font-size:.78rem; margin:0 0 .8rem; }
-.hero h1 { margin:.25rem 0; font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif; font-stretch:condensed; font-size:clamp(4.2rem,8vw,7rem); line-height:.82; letter-spacing:-.045em; }
+.hero h1 { margin:.25rem 0; font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif; font-stretch:condensed; font-size:clamp(3.8rem,5.2vw,5.8rem); line-height:.86; letter-spacing:-.045em; }
 .hero h1 span { color:var(--gold-2); }
 .hero h2 { font-size:clamp(1.35rem,2.2vw,2rem); line-height:1.18; max-width:650px; margin:1.35rem 0 1rem; color:#f4f4f0; }
 .lede { color:#d1d2d2; max-width:630px; font-size:1.05rem; }
@@ -78,8 +78,18 @@ img { width: 100%; display: block; }
 .date small { color:var(--gold-2); font-weight:800; letter-spacing:.12em; }
 .date strong { font-size:1.8rem; line-height:1.05; }
 .company { font-weight:900; letter-spacing:.08em; font-size:1.22rem; margin:.35rem 0 .7rem; }
-.intel-word { color:#39a7e8; font-size:1.65rem; letter-spacing:-.03em; }
-.panasonic-word { color:#4d8fe7; letter-spacing:-.02em; }
+.company-logo-wrap { display:flex; align-items:center; justify-content:center; height:58px; margin:.15rem 0 .85rem; padding:.55rem .85rem; border-radius:5px; background:linear-gradient(180deg,#f8f8f6,#e8e9e7); border:1px solid rgba(255,255,255,.75); box-shadow:0 5px 18px rgba(0,0,0,.22); }
+.company-logo-wrap:hover { transform:translateY(-1px); box-shadow:0 8px 24px rgba(0,0,0,.3); }
+.company-logo { display:block; max-width:100%; max-height:38px; width:auto; height:auto; }
+.logo-marvell { max-height:34px; }
+.logo-intel { max-height:40px; }
+.logo-panasonic { max-height:30px; }
+.speaker-profile { color:white; text-decoration:none; display:inline-flex; align-items:center; flex-wrap:wrap; gap:.42rem; }
+.speaker-profile:hover { color:var(--gold-2); }
+.profile-badge { display:inline-block!important; color:#8ac7ee!important; font-size:.68rem; font-style:normal!important; font-weight:800!important; letter-spacing:.035em; border:1px solid rgba(88,176,224,.5); border-radius:999px; padding:.15rem .42rem; line-height:1.2; }
+.inline-profile { font-weight:700; }
+.spring-company-logo { display:inline-flex; align-items:center; justify-content:center; width:108px; height:36px; background:#f7f7f5; border-radius:4px; padding:.38rem .55rem; margin-bottom:.25rem; }
+.spring-company-logo img { max-width:100%; max-height:24px; display:block; }
 .speaker-card h3 { color:var(--gold-2); margin:.15rem 0 .65rem; line-height:1.13; font-size:1.35rem; }
 .speaker-card p { color:#d4d4d2; }
 .speaker-name { color:white!important; font-weight:700; }
@@ -136,7 +146,7 @@ footer span { color:var(--muted); font-size:.9rem; }
   .brand strong { font-size:.9rem; }
   .brand small { font-size:.73rem; }
   .hero-art { min-height:280px; }
-  .hero h1 { font-size:4rem; }
+  .hero h1 { font-size:clamp(3rem,15vw,4rem); }
   .quick-facts, .flow-grid, .speaker-grid { grid-template-columns:1fr; }
   .quick-facts > div { border-right:0; border-bottom:1px solid rgba(255,255,255,.07); }
   .section { padding:4rem 1rem; }
