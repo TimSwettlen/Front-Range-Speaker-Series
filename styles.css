@@ -39,7 +39,32 @@ img { width: 100%; display: block; }
 .hero { min-height:680px; display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1.08fr); width:100%; max-width:1400px; margin:0 auto; border-bottom:1px solid var(--line); overflow:hidden; }
 .hero-copy { padding:clamp(4.5rem,6vw,6.7rem) clamp(2rem,4vw,4.5rem) 4rem; position:relative; z-index:2; }
 .hero-copy::after { content:""; position:absolute; inset:0 -9rem 0 auto; width:15rem; background:linear-gradient(90deg,var(--bg),transparent); pointer-events:none; }
-.hero-art { min-height:680px; background-image:linear-gradient(90deg,rgba(5,6,7,.78),rgba(5,6,7,.08) 34%), url('assets/hero-hardware.webp'); background-size:cover; background-position:center; }
+.hero-art {
+  min-height:680px;
+  position:relative;
+  background-color:#07101b;
+  background-image:
+    linear-gradient(90deg,rgba(5,6,7,.96) 0%,rgba(5,6,7,.58) 16%,rgba(5,6,7,.12) 40%,rgba(5,6,7,.03) 72%),
+    url('https://intelcorp.scene7.com/is/image/intelcorp/newsroom-intel-xeon-cpu-max-series-processor-glow%3A1080-1080?dpr=off&fmt=png8-alpha&ts=1777585384215');
+  background-size:cover;
+  background-position:center;
+  box-shadow:inset 0 0 80px rgba(0,0,0,.28);
+}
+.hero-image-credit {
+  position:absolute;
+  right:1rem;
+  bottom:.8rem;
+  color:rgba(255,255,255,.62);
+  background:rgba(5,6,7,.58);
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:3px;
+  padding:.25rem .45rem;
+  font-size:.67rem;
+  line-height:1.2;
+  text-decoration:none;
+  backdrop-filter:blur(4px);
+}
+.hero-image-credit:hover { color:var(--gold-2); border-color:var(--line); }
 .eyebrow { color:var(--gold-2); text-transform:uppercase; letter-spacing:.15em; font-weight:800; font-size:.78rem; margin:0 0 .8rem; }
 .hero h1 { margin:.25rem 0; font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif; font-stretch:condensed; font-size:clamp(3.8rem,5.2vw,5.8rem); line-height:.86; letter-spacing:-.045em; }
 .hero h1 span { color:var(--gold-2); }
@@ -62,7 +87,7 @@ img { width: 100%; display: block; }
 .section { max-width:var(--max); margin:0 auto; padding:5.5rem 1.25rem; }
 .section-heading { max-width:760px; margin-bottom:2.25rem; }
 .section-heading.centered { text-align:center; margin-left:auto; margin-right:auto; }
-.section-heading h2, .audience h2, .register h2, .location h2 { font-size:clamp(2rem,4vw,3.1rem); margin:.1rem 0 .6rem; line-height:1.05; }
+.section-heading h2, .audience h2, .location h2 { font-size:clamp(2rem,4vw,3.1rem); margin:.1rem 0 .6rem; line-height:1.05; }
 .section-heading p:not(.eyebrow) { color:var(--muted); font-size:1.05rem; }
 .flow-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; }
 .flow-card { background:var(--panel); border:1px solid var(--line); overflow:hidden; }
@@ -96,6 +121,15 @@ img { width: 100%; display: block; }
 .speaker-name span { display:block; color:var(--muted); font-weight:400; font-style:italic; }
 .button-card { margin-top:auto; border:1px solid var(--gold); color:var(--gold-2); padding:.6rem .7rem; }
 .button-card:hover { background:rgba(212,169,59,.1); }
+.registration-pending {
+  color:#c9c9c6;
+  border-color:rgba(255,255,255,.22);
+  background:rgba(255,255,255,.035);
+  cursor:default;
+  text-align:center;
+  font-weight:700;
+}
+.registration-pending:hover { background:rgba(255,255,255,.035); }
 .spring { display:grid; grid-template-columns:34% 1fr; gap:3rem; border-top:1px solid rgba(255,255,255,.06); }
 .spring-list { border-top:1px solid var(--gold); }
 .spring-list article { display:grid; grid-template-columns:100px 1fr; gap:1rem; padding:1.2rem 0; border-bottom:1px solid rgba(255,255,255,.12); }
@@ -112,12 +146,6 @@ img { width: 100%; display: block; }
 .course-list strong { color:var(--gold-2); }
 .course-list span { color:#d7d7d5; }
 .fine-print { color:var(--muted)!important; font-size:.9rem; }
-.register { padding-top:1rem; }
-.register-panel { display:grid; grid-template-columns:1.25fr .75fr; gap:2rem; padding:2.2rem; background:linear-gradient(135deg,#121619,#070809); border:1px solid var(--gold); }
-.register-panel ol { padding-left:1.2rem; color:#d6d6d4; }
-.register-action { display:flex; flex-direction:column; align-items:stretch; justify-content:center; gap:1rem; }
-.button-large { min-height:58px; font-size:1.03rem; }
-.registration-status { color:var(--muted); font-size:.9rem; margin:0; }
 .location { display:grid; grid-template-columns:1fr 1fr; gap:2rem; border-top:1px solid rgba(255,255,255,.06); }
 .location-note { background:var(--panel); padding:1.5rem; border-left:3px solid var(--gold); }
 .location-note p { color:var(--muted); }
@@ -139,7 +167,7 @@ footer span { color:var(--muted); font-size:.9rem; }
   .hero-art { min-height:370px; order:-1; background-position:center; }
   .quick-facts { margin:0; grid-template-columns:1fr 1fr; }
   .flow-grid, .speaker-grid { grid-template-columns:1fr 1fr; }
-  .spring, .audience-grid, .register-panel, .location { grid-template-columns:1fr; }
+  .spring, .audience-grid, .location { grid-template-columns:1fr; }
 }
 @media (max-width: 620px) {
   .brand { min-width:0; }
