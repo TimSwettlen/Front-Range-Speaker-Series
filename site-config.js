@@ -1,7 +1,7 @@
 window.SPEAKER_SERIES_CONFIG = {
   mainRegistrationUrl: "",
   registrationUrls: {
-    marvell: "",
+    marvell: "https://events.vtools.ieee.org/m/573685",
     intel: "",
     panasonic: "",
     student: ""
