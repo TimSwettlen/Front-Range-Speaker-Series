@@ -1,0 +1,18 @@
+Front Range Speaker Series v1.11 — cumulative update
+
+IMPORTANT: Upload the CONTENTS of this folder into the ROOT of the GitHub repository. Do not upload the ZIP itself and do not put this folder inside the repository as a subfolder.
+
+This version includes:
+- All v1.7/v1.8 changes
+- Chris Fieldsend detail page + headshot
+- Intel and Panasonic active registration buttons
+- Judd Gerber event page with supplied abstract
+- New 01/02/03/04 hardware images
+- Versioned image filenames (-v2) to avoid browser/CDN cache showing old images
+
+Public attendee registration URLs used:
+- Marvell: https://events.vtools.ieee.org/m/573685
+- Intel: https://events.vtools.ieee.org/m/575064
+- Panasonic: https://events.vtools.ieee.org/m/575322
+
+The URLs provided for Intel/Panasonic contained /tego_/event/manage/, which is the event-management/admin path. The website uses the attendee-facing /m/<event-id> pattern instead.
