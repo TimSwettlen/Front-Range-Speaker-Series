@@ -1,18 +1,19 @@
-Front Range Speaker Series v1.11 — cumulative update
+Front Range Professional Speaker Series — v1.12
 
-IMPORTANT: Upload the CONTENTS of this folder into the ROOT of the GitHub repository. Do not upload the ZIP itself and do not put this folder inside the repository as a subfolder.
+Changes in this version:
+- Chris Fieldsend / Sept. 10 event is now marked as a past event.
+- Removed the Chris registration button from the homepage and Chris event page.
+- Added a three-photo event gallery to Chris's event page.
+- Homepage now links to "View recap + photos" for Chris.
+- Marvell registration URL removed from site-config.js to prevent accidental reuse.
+- Judd and Darren registration links remain unchanged.
 
-This version includes:
-- All v1.7/v1.8 changes
-- Chris Fieldsend detail page + headshot
-- Intel and Panasonic active registration buttons
-- Judd Gerber event page with supplied abstract
-- New 01/02/03/04 hardware images
-- Versioned image filenames (-v2) to avoid browser/CDN cache showing old images
+For a complete update, upload/replace the contents of this folder in the GitHub repository root.
+Remember: GitHub's browser uploader does not automatically update nested /assets files when you only upload root-level files.
 
-Public attendee registration URLs used:
-- Marvell: https://events.vtools.ieee.org/m/573685
-- Intel: https://events.vtools.ieee.org/m/575064
-- Panasonic: https://events.vtools.ieee.org/m/575322
+New assets to upload inside /assets:
+- chris-event-2026-09-10-a.webp
+- chris-event-2026-09-10-b.webp
+- chris-event-2026-09-10-c.webp
 
-The URLs provided for Intel/Panasonic contained /tego_/event/manage/, which is the event-management/admin path. The website uses the attendee-facing /m/<event-id> pattern instead.
+Judd Gerber headshot is not included yet; add it after the image is provided.

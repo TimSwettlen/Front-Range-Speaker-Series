@@ -56,3 +56,11 @@ The site intentionally states only that attendance/no-show records *may* be shar
 
 ### Updating the existing GitHub Pages site
 Upload/replace `index.html` and `styles.css` in the repository root. No changes to `site-config.js` or `script.js` are required for this update.
+
+## v1.12 update
+Chris Fieldsend's Sept. 10 event is archived with event photos and registration removed.
+
+
+## v1.13 update
+- Added Judd Gerber headshot to the Oct. 8 event page.
+- Kept the speaker bio placeholder until an approved bio is available.

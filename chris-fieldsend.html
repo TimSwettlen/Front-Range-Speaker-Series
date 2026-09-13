@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Chris Fieldsend of Marvell Semiconductor presents Advanced Packaging at the Front Range Professional Speaker Series on September 10, 2026." />
+  <meta name="description" content="Event recap and photos from Chris Fieldsend of Marvell Semiconductor presenting Advanced Packaging at the Front Range Professional Speaker Series on September 10, 2026." />
   <title>Chris Fieldsend — Advanced Packaging | Front Range Professional Speaker Series</title>
   <style>
     :root { --bg:#07090a; --panel:#101416; --panel2:#161b1e; --text:#f6f6f2; --muted:#b9c0c5; --gold:#f2c94c; --gold2:#d6a826; --line:#32383c; }
@@ -11,6 +11,7 @@
     html { scroll-behavior:smooth; }
     body { margin:0; background:var(--bg); color:var(--text); font-family:Arial, Helvetica, sans-serif; line-height:1.55; }
     a { color:inherit; }
+    img { max-width:100%; }
     .shell { width:min(1160px, calc(100% - 40px)); margin:0 auto; }
     header { border-bottom:1px solid #1e2326; background:rgba(7,9,10,.97); position:sticky; top:0; z-index:10; }
     .nav { min-height:72px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
@@ -23,12 +24,12 @@
     .eyebrow { color:var(--gold); letter-spacing:.15em; text-transform:uppercase; font-weight:800; font-size:13px; margin:0 0 16px; }
     h1 { font-size:clamp(42px,7vw,86px); line-height:.95; margin:0 0 18px; letter-spacing:-.04em; }
     .subtitle { font-size:clamp(22px,3vw,34px); font-weight:700; margin:0 0 24px; }
-    .facts { display:flex; flex-wrap:wrap; gap:10px 26px; color:var(--muted); margin:0 0 28px; }
+    .facts { display:flex; flex-wrap:wrap; gap:10px 26px; color:var(--muted); margin:0 0 24px; }
     .facts strong { color:var(--text); }
-    .buttons { display:flex; flex-wrap:wrap; gap:14px; }
-    .button { display:inline-block; text-decoration:none; padding:14px 20px; border-radius:5px; font-weight:800; border:1px solid var(--gold2); }
-    .primary { background:linear-gradient(180deg,#f6d264,#d9aa2d); color:#090909; }
-    .secondary { color:var(--text); border-color:#565d61; }
+    .status-row { display:flex; flex-wrap:wrap; align-items:center; gap:12px; }
+    .status { display:inline-block; padding:8px 12px; border:1px solid rgba(242,201,76,.45); border-radius:999px; color:var(--gold); font-size:12px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; }
+    .button { display:inline-block; text-decoration:none; padding:12px 17px; border-radius:5px; font-weight:800; border:1px solid #565d61; }
+    .secondary { color:var(--text); }
     main section { padding:58px 0; }
     .speaker-grid { display:grid; grid-template-columns:minmax(240px,330px) 1fr; gap:48px; align-items:start; }
     .headshot { width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px; border:1px solid #3a3f42; display:block; }
@@ -41,18 +42,28 @@
     .talk h2 { font-size:34px; }
     .talk p { color:#d4d8da; font-size:18px; margin-bottom:0; }
     .archive { border-top:1px solid #1e2326; }
-    .archive-intro { max-width:760px; color:var(--muted); margin-bottom:26px; }
-    .resource-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-    .resource { min-height:170px; padding:24px; background:var(--panel); border:1px solid var(--line); border-radius:10px; }
+    .archive-intro { max-width:840px; color:#d8dcde; font-size:18px; margin-bottom:30px; }
+    .photo-feature { margin:0 0 20px; }
+    .photo-feature img, .photo-grid img { width:100%; display:block; border-radius:10px; border:1px solid #30363a; background:#0b0e10; }
+    .photo-feature img { aspect-ratio:16/10; object-fit:cover; object-position:center 45%; }
+    .photo-grid { display:grid; grid-template-columns:1.35fr .9fr; gap:20px; align-items:start; }
+    .photo-grid figure, .photo-feature { margin:0; }
+    .photo-grid .room img { aspect-ratio:16/10; object-fit:cover; }
+    .photo-grid .speaker img { aspect-ratio:4/3; object-fit:cover; object-position:center; }
+    figcaption { color:var(--muted); font-size:14px; margin-top:9px; }
+    .resources { margin-top:34px; }
+    .resources h3 { font-size:24px; margin:0 0 14px; }
+    .resource-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
+    .resource { min-height:140px; padding:22px; background:var(--panel); border:1px solid var(--line); border-radius:10px; }
     .resource small { color:var(--gold); font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
-    .resource h3 { margin:12px 0 8px; font-size:22px; }
+    .resource h4 { margin:12px 0 8px; font-size:21px; }
     .resource p { color:var(--muted); margin:0; }
     footer { padding:36px 0 48px; color:#929a9f; border-top:1px solid #1e2326; font-size:14px; }
     @media (max-width:760px) {
       .shell { width:min(100% - 28px, 1160px); }
-      .speaker-grid { grid-template-columns:1fr; gap:28px; }
+      .speaker-grid, .photo-grid, .resource-grid { grid-template-columns:1fr; gap:28px; }
       .headshot { max-width:330px; }
-      .resource-grid { grid-template-columns:1fr; }
+      .photo-feature img, .photo-grid .room img, .photo-grid .speaker img { aspect-ratio:auto; }
       .hero { padding-top:48px; }
       .nav { min-height:64px; }
     }
@@ -77,8 +88,8 @@
         <span><strong>ECCR 200</strong>, CU Boulder</span>
         <span>In person · Food + Q&amp;A</span>
       </div>
-      <div class="buttons">
-        <a class="button primary" href="https://events.vtools.ieee.org/m/573685" target="_blank" rel="noopener noreferrer">Register for Sept. 10 ↗</a>
+      <div class="status-row">
+        <span class="status">Event completed</span>
         <a class="button secondary" href="https://www.linkedin.com/in/chris-fieldsend-2b78997/" target="_blank" rel="noopener noreferrer">Chris on LinkedIn ↗</a>
       </div>
     </div>
@@ -88,7 +99,7 @@
     <section>
       <div class="shell speaker-grid">
         <div>
-          <img class="headshot" src="assets/chris-fieldsend-headshot.png" alt="Headshot of Chris Fieldsend" />
+          <img class="headshot" src="assets/chris-fieldsend-headshot.png" alt="Chris Fieldsend" />
           <div class="speaker-meta">
             <strong>Chris Fieldsend</strong>
             <span>Director, Advanced Packaging<br />Marvell Semiconductor · Burlington, VT</span>
@@ -112,15 +123,34 @@
       </div>
     </section>
 
-    <section class="archive">
+    <section class="archive" id="photos">
       <div class="shell">
         <p class="eyebrow">Event archive</p>
-        <h2>After the Talk</h2>
-        <p class="archive-intro">This page will become the permanent archive for the Sept. 10 event. Photos, presentation materials, and recordings will be added here after the talk as they become available.</p>
-        <div class="resource-grid">
-          <article class="resource"><small>Photos</small><h3>Event Photos</h3><p>Coming after Sept. 10.</p></article>
-          <article class="resource"><small>Slides</small><h3>Presentation PDF</h3><p>Coming after the event, if available for sharing.</p></article>
-          <article class="resource"><small>Video</small><h3>Recording</h3><p>Coming after the event, if a recording is available.</p></article>
+        <h2>September 10 Event Photos</h2>
+        <p class="archive-intro">The first Fall 2026 Front Range Professional Speaker Series event featured Chris Fieldsend of Marvell presenting <em>Advanced Packaging</em> at CU Boulder. Photos from the evening are below.</p>
+
+        <figure class="photo-feature">
+          <img src="assets/chris-event-2026-09-10-a.webp" alt="Audience at the September 10 Front Range Professional Speaker Series event" loading="lazy" />
+          <figcaption>Attendees gather for the Sept. 10 Advanced Packaging talk in ECCR 200.</figcaption>
+        </figure>
+
+        <div class="photo-grid">
+          <figure class="room">
+            <img src="assets/chris-event-2026-09-10-b.webp" alt="Chris Fieldsend presenting Advanced Packaging to attendees in ECCR 200" loading="lazy" />
+            <figcaption>Chris Fieldsend presenting to the room during the first event of the Fall 2026 series.</figcaption>
+          </figure>
+          <figure class="speaker">
+            <img src="assets/chris-event-2026-09-10-c.webp" alt="Chris Fieldsend speaking during the Marvell Advanced Packaging event" loading="lazy" />
+            <figcaption>Chris Fieldsend · Marvell Semiconductor.</figcaption>
+          </figure>
+        </div>
+
+        <div class="resources">
+          <h3>Additional resources</h3>
+          <div class="resource-grid">
+            <article class="resource"><small>Slides</small><h4>Presentation PDF</h4><p>Will be added here if the presentation is available for public sharing.</p></article>
+            <article class="resource"><small>Video</small><h4>Recording</h4><p>Will be added here if a recording becomes available.</p></article>
+          </div>
         </div>
       </div>
     </section>

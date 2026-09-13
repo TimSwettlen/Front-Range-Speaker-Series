@@ -130,6 +130,16 @@ img { width: 100%; display: block; }
   font-weight:700;
 }
 .registration-pending:hover { background:rgba(255,255,255,.035); }
+
+.event-status {
+  margin:.25rem 0 .8rem!important;
+  color:#aeb5b8!important;
+  font-size:.72rem;
+  font-weight:800;
+  letter-spacing:.10em;
+  text-transform:uppercase;
+}
+.recap-button { text-align:center; }
 .spring { display:grid; grid-template-columns:34% 1fr; gap:3rem; border-top:1px solid rgba(255,255,255,.06); }
 .spring-list { border-top:1px solid var(--gold); }
 .spring-list article { display:grid; grid-template-columns:100px 1fr; gap:1rem; padding:1.2rem 0; border-bottom:1px solid rgba(255,255,255,.12); }
