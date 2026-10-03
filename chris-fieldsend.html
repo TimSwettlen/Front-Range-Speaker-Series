@@ -58,6 +58,10 @@
     .resource small { color:var(--gold); font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
     .resource h4 { margin:12px 0 8px; font-size:21px; }
     .resource p { color:var(--muted); margin:0; }
+    .resource-preview { width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:7px; border:1px solid #343a3e; margin:0 0 16px; background:#fff; }
+    .resource-link { display:inline-block; margin-top:16px; color:var(--gold); font-weight:800; text-decoration:none; }
+    .resource-link:hover { text-decoration:underline; }
+    .resource-meta { margin-top:8px !important; font-size:14px; }
     footer { padding:36px 0 48px; color:#929a9f; border-top:1px solid #1e2326; font-size:14px; }
     @media (max-width:760px) {
       .shell { width:min(100% - 28px, 1160px); }
@@ -148,7 +152,14 @@
         <div class="resources">
           <h3>Additional resources</h3>
           <div class="resource-grid">
-            <article class="resource"><small>Slides</small><h4>Presentation PDF</h4><p>Will be added here if the presentation is available for public sharing.</p></article>
+            <article class="resource">
+              <img class="resource-preview" src="assets/chris-slides-cover.webp" alt="Cover of Chris Fieldsend's Advanced Semiconductor Packaging presentation" loading="lazy" />
+              <small>Presentation slides</small>
+              <h4>Advanced Semiconductor Packaging</h4>
+              <p><em>The New Epicenter of Innovation</em></p>
+              <p class="resource-meta">Chris Fieldsend · Director, Advanced Packaging · Marvell</p>
+              <a class="resource-link" href="assets/presentations/chris-fieldsend-advanced-semiconductor-packaging-2026-09-10.pdf" target="_blank" rel="noopener noreferrer">View presentation PDF ↗</a>
+            </article>
             <article class="resource"><small>Video</small><h4>Recording</h4><p>Will be added here if a recording becomes available.</p></article>
           </div>
         </div>

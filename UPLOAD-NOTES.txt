@@ -1,19 +1,16 @@
-Front Range Professional Speaker Series — v1.12
+Front Range Professional Speaker Series - v1.15
 
 Changes in this version:
-- Chris Fieldsend / Sept. 10 event is now marked as a past event.
-- Removed the Chris registration button from the homepage and Chris event page.
-- Added a three-photo event gallery to Chris's event page.
-- Homepage now links to "View recap + photos" for Chris.
-- Marvell registration URL removed from site-config.js to prevent accidental reuse.
-- Judd and Darren registration links remain unchanged.
+- Adds Chris Fieldsend's Sept. 10 presentation PDF to his event archive page.
+- Adds a slide-cover preview and a "View presentation PDF" link.
+- All v1.14 changes are retained.
 
 For a complete update, upload/replace the contents of this folder in the GitHub repository root.
-Remember: GitHub's browser uploader does not automatically update nested /assets files when you only upload root-level files.
 
-New assets to upload inside /assets:
-- chris-event-2026-09-10-a.webp
-- chris-event-2026-09-10-b.webp
-- chris-event-2026-09-10-c.webp
+Important: GitHub's browser uploader does not automatically update nested folders.
+Be sure to upload these new nested assets in their matching locations:
+- assets/chris-slides-cover.webp
+- assets/presentations/chris-fieldsend-advanced-semiconductor-packaging-2026-09-10.pdf
 
-Judd Gerber headshot is not included yet; add it after the image is provided.
+Also replace at repository root:
+- chris-fieldsend.html

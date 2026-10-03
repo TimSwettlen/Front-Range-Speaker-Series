@@ -64,3 +64,9 @@ Chris Fieldsend's Sept. 10 event is archived with event photos and registration 
 ## v1.13 update
 - Added Judd Gerber headshot to the Oct. 8 event page.
 - Kept the speaker bio placeholder until an approved bio is available.
+
+
+## v1.15 update
+- Added Chris Fieldsend's presentation PDF to the Sept. 10 event archive.
+- Added a presentation-cover preview and direct PDF link on Chris's event page.
+- Presentation file is stored under `assets/presentations/`.
