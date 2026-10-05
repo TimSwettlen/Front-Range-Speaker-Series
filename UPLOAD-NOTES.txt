@@ -1,16 +1,7 @@
-Front Range Professional Speaker Series - v1.15
+Front Range Professional Speaker Series v1.16 bio update
 
-Changes in this version:
-- Adds Chris Fieldsend's Sept. 10 presentation PDF to his event archive page.
-- Adds a slide-cover preview and a "View presentation PDF" link.
-- All v1.14 changes are retained.
+Upload/replace these TWO files in the repository root:
+- judd-gerber.html
+- index.html
 
-For a complete update, upload/replace the contents of this folder in the GitHub repository root.
-
-Important: GitHub's browser uploader does not automatically update nested folders.
-Be sure to upload these new nested assets in their matching locations:
-- assets/chris-slides-cover.webp
-- assets/presentations/chris-fieldsend-advanced-semiconductor-packaging-2026-09-10.pdf
-
-Also replace at repository root:
-- chris-fieldsend.html
+No asset files need to be changed for this update.
