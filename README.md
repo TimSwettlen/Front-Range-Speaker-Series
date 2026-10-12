@@ -70,3 +70,16 @@ Chris Fieldsend's Sept. 10 event is archived with event photos and registration 
 - Added Chris Fieldsend's presentation PDF to the Sept. 10 event archive.
 - Added a presentation-cover preview and direct PDF link on Chris's event page.
 - Presentation file is stored under `assets/presentations/`.
+
+
+## v1.16 update
+- Added Judd Gerber's approved speaker bio and full Intel title to his Oct. 8 event page.
+- Updated the homepage Judd link label to “Speaker bio + talk details.”
+
+
+## v1.17 — Judd Gerber event archive
+- Converted the Oct. 8 Intel event from upcoming registration to a past-event recap.
+- Added a curated seven-photo event gallery (six user-designated best photos plus one additional audience-wide image).
+- Added Judd's final presentation PDF and cover thumbnail.
+- Added a recording placeholder for `Chiplets What Why and Where.mp4`; the large MP4 is intentionally not bundled.
+- Removed the obsolete Intel registration link from the homepage and `site-config.js`.

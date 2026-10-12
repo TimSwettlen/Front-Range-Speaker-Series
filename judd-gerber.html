@@ -17,9 +17,9 @@
     .buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.button{display:inline-block;padding:13px 19px;border-radius:7px;text-decoration:none;font-weight:800}.primary{background:var(--gold);color:#111}.secondary{border:1px solid #555;color:var(--text)}
     main section{padding:58px 0}.content-grid{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:54px}.abstract h2{font-size:34px;margin:0 0 22px}.abstract p{font-size:18px;color:#d8dcde;margin:0 0 20px}.side-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px;height:max-content}.speaker-photo{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 32%;display:block;border-radius:9px;border:1px solid #3a3f42;margin-bottom:20px}.side-card h2{font-size:22px;margin:0 0 10px}.side-card p{color:var(--muted);margin:0}.side-card .small{font-size:14px;margin-top:16px}
     .speaker-bio-section{border-top:1px solid var(--line)}.bio-block{max-width:900px}.bio-block h2{font-size:34px;margin:0 0 22px}.bio-block p{font-size:18px;color:#d8dcde;margin:0 0 20px}
-    .after{border-top:1px solid var(--line)}.resource-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.resource{padding:22px;background:var(--panel);border:1px solid var(--line);border-radius:10px}.resource small{color:var(--gold);font-weight:800;letter-spacing:.08em;text-transform:uppercase}.resource h3{margin:12px 0 8px}.resource p{color:var(--muted);margin:0}
+    .event-archive{border-top:1px solid var(--line)}.archive-intro{max-width:860px;color:var(--muted);font-size:18px;margin:0 0 28px}.photo-feature{margin:0 0 18px}.photo-feature img{width:100%;max-height:680px;object-fit:cover;display:block;border-radius:12px;border:1px solid #33393d}.photo-feature figcaption,.photo-grid figcaption{color:var(--muted);font-size:14px;margin-top:8px}.photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}.photo-grid figure{margin:0}.photo-grid a{display:block}.photo-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:10px;border:1px solid #33393d;transition:transform .18s ease,border-color .18s ease}.photo-grid a:hover img{transform:translateY(-2px);border-color:#777}.resources{margin-top:52px}.resources h3{font-size:28px;margin:0 0 18px}.resource-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.resource{padding:24px;background:var(--panel);border:1px solid var(--line);border-radius:10px}.resource small{color:var(--gold);font-weight:800;letter-spacing:.08em;text-transform:uppercase}.resource h4{font-size:22px;margin:12px 0 8px}.resource p{color:var(--muted);margin:0 0 16px}.resource-cover{width:100%;max-width:360px;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:8px;border:1px solid #33393d;margin-bottom:18px}.resource-link{display:inline-block;margin-top:4px;color:#111;background:var(--gold);padding:11px 15px;border-radius:7px;text-decoration:none;font-weight:800}.placeholder{display:inline-block;margin-top:4px;border:1px solid #555;color:#d9dddf;padding:10px 14px;border-radius:7px;font-weight:700}.filename{font-family:Consolas,Monaco,monospace;font-size:13px;color:#929a9f;word-break:break-word}
     footer{padding:36px 0 48px;color:#929a9f;border-top:1px solid #1e2326;font-size:14px}
-    @media(max-width:760px){.shell{width:min(100% - 28px,var(--max))}.content-grid{grid-template-columns:1fr}.resource-grid{grid-template-columns:1fr}.hero{padding-top:48px}.nav{min-height:64px}}
+    @media(max-width:760px){.shell{width:min(100% - 28px,var(--max))}.content-grid{grid-template-columns:1fr}.photo-grid{grid-template-columns:1fr}.resource-grid{grid-template-columns:1fr}.hero{padding-top:48px}.nav{min-height:64px}}
   </style>
 </head>
 <body>
@@ -29,7 +29,7 @@
     <h1>Chiplets: What / Why / Where</h1>
     <p class="subtitle">Judd Gerber · Senior Principal Engineer, Sort Test Technology Development · Intel Corporation</p>
     <div class="facts"><span><strong>Thursday</strong>, Oct. 8</span><span><strong>7:00–8:30 PM</strong></span><span><strong>ECCR 200</strong>, CU Boulder</span><span>In person · Food + Q&amp;A</span></div>
-    <div class="buttons"><a class="button primary" href="https://events.vtools.ieee.org/m/575064" target="_blank" rel="noopener noreferrer">Register for Oct. 8 ↗</a></div>
+    <div class="buttons"><a class="button primary" href="#photos">View event recap ↓</a><a class="button secondary" href="assets/presentations/judd-gerber-chiplets-what-why-where-2026-10-08.pdf" target="_blank" rel="noopener noreferrer">Presentation PDF ↗</a></div>
   </div></div>
   <main>
     <section><div class="shell content-grid">
@@ -47,11 +47,45 @@
       <p>Over the course of his career, Judd has spent 27 years at Intel, where he has held key leadership positions across both Sort Test Technology Development and Logic Technology Development. His broad experience spans the full spectrum of semiconductor testing, including Wafer Sort and Final Test for Packaged Units.</p>
       <p>In his current role, Judd leads Sort Development for Intel and serves as the Wafer Sort Factory Manager at Intel's Ronler Acres campus, where he oversees critical testing operations that support Intel's advanced semiconductor manufacturing efforts.</p>
     </div></section>
-    <section class="after"><div class="shell"><p class="eyebrow">After the talk</p><h2>Event resources</h2><div class="resource-grid">
-      <article class="resource"><small>Photos</small><h3>Event photos</h3><p>Coming after the event.</p></article>
-      <article class="resource"><small>Slides</small><h3>Presentation PDF</h3><p>Coming after the event.</p></article>
-      <article class="resource"><small>Recording</small><h3>Talk recording</h3><p>Coming after the event, if available.</p></article>
-    </div></div></section>
+    <section class="event-archive" id="photos"><div class="shell">
+      <p class="eyebrow">Event archive</p>
+      <h2>October 8 Event Recap</h2>
+      <p class="archive-intro">Judd Gerber of Intel joined the Front Range Professional Speaker Series to explain why chiplets and advanced packaging are becoming central to modern computing — from silicon and wafer basics to reticle limits, modular design, yield, cost, and the packaging technologies that make multi-die systems possible.</p>
+
+      <figure class="photo-feature">
+        <a href="assets/judd-event-2026-10-08-a.webp" target="_blank" rel="noopener noreferrer"><img src="assets/judd-event-2026-10-08-a.webp" alt="Judd Gerber presenting to a packed audience in ECCR 200 during the October 8 chiplets talk" loading="lazy" /></a>
+        <figcaption>Judd Gerber presenting “Chiplets: What / Why / Where” to students, faculty, and industry attendees in ECCR 200.</figcaption>
+      </figure>
+
+      <div class="photo-grid">
+        <figure><a href="assets/judd-event-2026-10-08-b.webp" target="_blank" rel="noopener noreferrer"><img src="assets/judd-event-2026-10-08-b.webp" alt="Audience attending the October 8 Front Range Professional Speaker Series event" loading="lazy" /></a><figcaption>A strong turnout for the second Fall 2026 speaker-series event.</figcaption></figure>
+        <figure><a href="assets/judd-event-2026-10-08-c.webp" target="_blank" rel="noopener noreferrer"><img src="assets/judd-event-2026-10-08-c.webp" alt="Judd Gerber discussing the growth of AI and semiconductor demand" loading="lazy" /></a><figcaption>Connecting AI growth to the semiconductor technologies behind it.</figcaption></figure>
+        <figure><a href="assets/judd-event-2026-10-08-d.webp" target="_blank" rel="noopener noreferrer"><img src="assets/judd-event-2026-10-08-d.webp" alt="Judd Gerber explaining why chiplets and advanced packaging matter now" loading="lazy" /></a><figcaption>Why chiplets and advanced packaging matter now.</figcaption></figure>
+        <figure><a href="assets/judd-event-2026-10-08-e.webp" target="_blank" rel="noopener noreferrer"><img src="assets/judd-event-2026-10-08-e.webp" alt="Judd Gerber presenting an example AI chip built from multiple chiplets" loading="lazy" /></a><figcaption>An example AI chip combining compute, logic, memory, and I/O chiplets.</figcaption></figure>
+        <figure><a href="assets/judd-event-2026-10-08-f.webp" target="_blank" rel="noopener noreferrer"><img src="assets/judd-event-2026-10-08-f.webp" alt="Judd Gerber explaining lithography reticle limits and the need for smaller chiplets" loading="lazy" /></a><figcaption>Reticle limits help explain why a single ever-larger die is not the answer.</figcaption></figure>
+        <figure><a href="assets/judd-event-2026-10-08-g.webp" target="_blank" rel="noopener noreferrer"><img src="assets/judd-event-2026-10-08-g.webp" alt="Judd Gerber presenting to attendees during the chiplets event" loading="lazy" /></a><figcaption>Judd kept the discussion approachable while connecting the fundamentals to real hardware.</figcaption></figure>
+      </div>
+
+      <div class="resources" id="resources">
+        <h3>Event resources</h3>
+        <div class="resource-grid">
+          <article class="resource">
+            <small>Slides</small>
+            <img class="resource-cover" src="assets/judd-slides-cover.webp" alt="Cover of Judd Gerber's Chiplet Talk presentation" loading="lazy" />
+            <h4>Chiplets, Advanced Packaging, and the Chips Behind AI</h4>
+            <p>Final presentation from Judd Gerber · Intel · October 8, 2026.</p>
+            <a class="resource-link" href="assets/presentations/judd-gerber-chiplets-what-why-where-2026-10-08.pdf" target="_blank" rel="noopener noreferrer">View presentation PDF ↗</a>
+          </article>
+          <article class="resource">
+            <small>Recording</small>
+            <h4>Chiplets: What / Why / Where</h4>
+            <p>The event recording is available and will be linked here after it is hosted in a web-friendly location.</p>
+            <span class="placeholder">Recording link coming soon</span>
+            <p class="filename">Planned source file: Chiplets What Why and Where.mp4</p>
+          </article>
+        </div>
+      </div>
+    </div></section>
   </main>
   <footer><div class="shell">Front Range Professional Speaker Series · CU Boulder</div></footer>
 </body>

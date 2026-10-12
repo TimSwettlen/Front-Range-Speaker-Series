@@ -1,7 +1,16 @@
-Front Range Professional Speaker Series v1.16 bio update
+Front Range Professional Speaker Series — v1.17
 
-Upload/replace these TWO files in the repository root:
-- judd-gerber.html
+Upload the CONTENTS of this folder to the GitHub repository root, replacing matching files.
+
+New/changed root files:
 - index.html
+- judd-gerber.html
+- site-config.js
 
-No asset files need to be changed for this update.
+New assets:
+- assets/judd-event-2026-10-08-a.webp through -g.webp
+- assets/judd-slides-cover.webp
+- assets/presentations/judd-gerber-chiplets-what-why-where-2026-10-08.pdf
+
+The 575 MB video is NOT included. The page contains a placeholder for:
+Chiplets What Why and Where.mp4
