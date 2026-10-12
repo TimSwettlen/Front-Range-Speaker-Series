@@ -83,3 +83,8 @@ Chris Fieldsend's Sept. 10 event is archived with event photos and registration 
 - Added Judd's final presentation PDF and cover thumbnail.
 - Added a recording placeholder for `Chiplets What Why and Where.mp4`; the large MP4 is intentionally not bundled.
 - Removed the obsolete Intel registration link from the homepage and `site-config.js`.
+
+
+## v1.18 update
+- Added embedded YouTube recording to Judd Gerber event page.
+- Recording: https://youtu.be/AkQ-3yPgVKY
