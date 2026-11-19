@@ -88,3 +88,10 @@ Chris Fieldsend's Sept. 10 event is archived with event photos and registration 
 ## v1.18 update
 - Added embedded YouTube recording to Judd Gerber event page.
 - Recording: https://youtu.be/AkQ-3yPgVKY
+
+## v1.22 - Darren Hitchcock event archive
+- Converted the Nov. 5 Panasonic event from upcoming registration to a past-event recap.
+- Added four event photos and a curated photo gallery.
+- Added Darren Hitchcock's final presentation PDF and cover thumbnail.
+- Added embedded YouTube recording: https://youtu.be/tVNTaVmV5u8
+- Removed the obsolete Panasonic registration link from `site-config.js`.

@@ -3,7 +3,7 @@ window.SPEAKER_SERIES_CONFIG = {
   registrationUrls: {
     marvell: "",
     intel: "",
-    panasonic: "https://events.vtools.ieee.org/m/575322",
+    panasonic: "",
     student: ""
   },
   hsdProgramUrl: "https://www.colorado.edu/ecee/academics/graduate-programs/professional-masters/high-speed-digital-engineering",

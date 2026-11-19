@@ -1,16 +1,16 @@
-Front Range Professional Speaker Series — v1.17
+Front Range Professional Speaker Series - v1.22
 
 Upload the CONTENTS of this folder to the GitHub repository root, replacing matching files.
 
 New/changed root files:
 - index.html
-- judd-gerber.html
+- darren-hitchcock.html
 - site-config.js
 
 New assets:
-- assets/judd-event-2026-10-08-a.webp through -g.webp
-- assets/judd-slides-cover.webp
-- assets/presentations/judd-gerber-chiplets-what-why-where-2026-10-08.pdf
+- assets/darren-event-2026-11-05-a.webp through -d.webp
+- assets/darren-slides-cover.webp
+- assets/presentations/darren-hitchcock-package-pcb-materials-2026-11-05.pdf
 
-The 575 MB video is NOT included. The page contains a placeholder for:
-Chiplets What Why and Where.mp4
+Darren recording is hosted on YouTube and embedded on the event page:
+https://youtu.be/tVNTaVmV5u8
