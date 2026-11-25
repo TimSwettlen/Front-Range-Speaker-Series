@@ -14,15 +14,15 @@
     .card-detail-link { margin:.15rem 0 .85rem; }
     .card-detail-link a { color:#f4c542; font-weight:700; text-decoration:none; }
     .card-detail-link a:hover { text-decoration:underline; }
-    /* Spring speaker feature; keep the italicized high-speed comparison legible. */
-    .spring-howard h3 a { color:inherit; text-decoration:none; }
-    .spring-howard h3 a:hover { text-decoration:underline; }
-    .spring-howard .spring-description { margin-top:.7rem; color:#d7d9d8; line-height:1.5; }
-    .spring-howard .spring-wow { margin-top:.6rem; color:#f1dfb3; font-size:.95rem; line-height:1.55; }
-    .spring-howard .spring-wow strong { color:#ffe18a; }
-    .spring-howard .spring-detail { margin-top:.65rem; }
-    .spring-howard .spring-detail a { color:#f4c542; font-weight:700; text-decoration:none; }
-    .spring-howard .spring-detail a:hover { text-decoration:underline; }
+    /* Spring speaker previews; matching Dean/Howard depth and readability. */
+    .spring-speaker h3 a { color:inherit; text-decoration:none; }
+    .spring-speaker h3 a:hover { text-decoration:underline; }
+    .spring-speaker .spring-description { margin-top:.7rem; color:#d7d9d8; line-height:1.5; }
+    .spring-speaker .spring-wow { margin-top:.6rem; color:#f1dfb3; font-size:.95rem; line-height:1.55; }
+    .spring-speaker .spring-wow strong { color:#ffe18a; }
+    .spring-speaker .spring-detail { margin-top:.65rem; }
+    .spring-speaker .spring-detail a { color:#f4c542; font-weight:700; text-decoration:none; }
+    .spring-speaker .spring-detail a:hover { text-decoration:underline; }
   </style>
 </head>
 <body>
@@ -156,12 +156,15 @@
         <p>More details and registration links will be added as speakers are confirmed.</p>
       </div>
       <div class="spring-list">
-        <article class="spring-feature"><time datetime="2027-01-28">JAN 28</time><div>
+        <article class="spring-feature spring-speaker"><time datetime="2027-01-28">JAN 28</time><div>
           <a class="spring-company-logo" href="https://www.amd.com/" target="_blank" rel="noopener noreferrer" aria-label="AMD website"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/AMD_Logo.svg" alt="AMD" /></a>
-          <h3>Designing End-to-End SI for Silicon Monsters</h3>
-          <p><a class="speaker-profile inline-profile" href="https://www.linkedin.com/in/deangonzales/" target="_blank" rel="noopener noreferrer">Dean Gonzales <span class="profile-badge">LinkedIn ↗</span></a></p>
+          <h3><a href="dean-gonzales.html">Designing End-to-End SI for Silicon Monsters</a></h3>
+          <p><a class="speaker-profile inline-profile" href="https://www.linkedin.com/in/deangonzales/" target="_blank" rel="noopener noreferrer">Dean Gonzales <span class="profile-badge">LinkedIn ↗</span></a> · AMD Senior Fellow</p>
+          <p class="spring-description">Explore how engineers preserve signal integrity across the entire electrical path—from silicon and advanced chiplet packages through PCBs and system interconnects—as modern AI processors push the limits of bandwidth and complexity.</p>
+          <p class="spring-wow"><em>At <strong>32 billion bits per second</strong>, each bit lasts just <strong>31 picoseconds</strong>. In that time, even light traveling through a vacuum covers less than <strong>one centimeter</strong>. Now imagine delivering reliable signals through silicon, packages, and circuit boards, with each transition introducing new electrical challenges!</em></p>
+          <p class="spring-detail"><a href="dean-gonzales.html">Speaker bio + talk details →</a></p>
         </div></article>
-        <article class="spring-howard"><time datetime="2027-03-04">MAR 4</time><div>
+        <article class="spring-speaker"><time datetime="2027-03-04">MAR 4</time><div>
           <strong>TE Connectivity</strong>
           <h3><a href="howard-heck.html">Off-board cabling in datacenters</a></h3>
           <p><a class="speaker-profile inline-profile" href="https://www.linkedin.com/in/howardheck/" target="_blank" rel="noopener noreferrer">Howard Heck <span class="profile-badge">LinkedIn ↗</span></a> · Senior R&amp;D Manager</p>

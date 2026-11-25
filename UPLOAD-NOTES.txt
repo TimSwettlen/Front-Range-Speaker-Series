@@ -1,16 +1,4 @@
-Front Range Professional Speaker Series - v1.22
-
-Upload the CONTENTS of this folder to the GitHub repository root, replacing matching files.
-
-New/changed root files:
-- index.html
-- darren-hitchcock.html
-- site-config.js
-
-New assets:
-- assets/darren-event-2026-11-05-a.webp through -d.webp
-- assets/darren-slides-cover.webp
-- assets/presentations/darren-hitchcock-package-pcb-materials-2026-11-05.pdf
-
-Darren recording is hosted on YouTube and embedded on the event page:
-https://youtu.be/tVNTaVmV5u8
+v1.26 — Dean Gonzales speaker preview
+Replace index.html in your repository root and add dean-gonzales.html alongside it. No other site files need changing.
+IMPORTANT: The existing site says JAN 28, 2027. A subsequent note referred to February; please confirm Dean’s event date before public promotion.
+Registration/approved abstract pending.
